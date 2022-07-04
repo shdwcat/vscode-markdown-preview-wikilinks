@@ -1,8 +1,9 @@
 {
-	"author": {
-		"name": "Thomas Koppelaar"
-	},
-	"publisher": "thomaskoppelaar",
+	"author": "shdwcat (https://github.com/shdwcat)",
+	"contributors": [
+	  "Thomas Koppelaar <thomaskoppelaar@protonmail.com>"
+	],
+	"publisher": "shdwcat",
 	"name": "markdown-wiki-links-preview",
 	"displayName": "Markdown Wiki-links preview",
 	"description": "Enables wikilinks in the Markdown preview.",
@@ -10,7 +11,7 @@
 	"version": "1.2.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thomaskoppelaar/vscode-markdown-preview-wikilinks.git"
+		"url": "https://github.com/shdwcat/vscode-markdown-preview-wikilinks.git"
 	},
 	"engines": {
 		"vscode": "^1.47.0"
