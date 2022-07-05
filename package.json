@@ -1,14 +1,14 @@
 {
 	"author": "shdwcat (https://github.com/shdwcat)",
 	"contributors": [
-	  "Thomas Koppelaar <thomaskoppelaar@protonmail.com>"
+		"Thomas Koppelaar <thomaskoppelaar@protonmail.com>"
 	],
 	"publisher": "shdwcat",
-	"name": "markdown-wiki-links-preview",
-	"displayName": "Markdown Wiki-links preview",
-	"description": "Enables wikilinks in the Markdown preview.",
+	"name": "markdown-wiki-links-preview-extended",
+	"displayName": "Markdown Wiki-links Preview Extended",
+	"description": "Enables basic and advanced wikilinks in the Markdown Preview.",
 	"license": "MIT",
-	"version": "1.2.1",
+	"version": "2.0.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/shdwcat/vscode-markdown-preview-wikilinks.git"
@@ -34,12 +34,12 @@
 		"markdown.markdownItPlugins": true,
 		"configuration": [
 			{
-				"title": "Markdown Wiki-links preview",
+				"title": "Markdown Wiki-links Preview Extended",
 				"properties": {
 					"markdown-wiki-links-preview.urisuffix": {
 						"type": "string",
-						"default": ".md",
-						"description": "The suffix to use when creating the link to files."
+						"default": "",
+						"description": "The default suffix to use when creating the link to files. If blank, the suffix of the current file will be used."
 					},
 					"markdown-wiki-links-preview.previewlabelstyling": {
 						"type": "string",
@@ -92,6 +92,6 @@
 		"webpack-cli": "^3.3.12"
 	},
 	"dependencies": {
-		"@thomaskoppelaar/markdown-it-wikilinks": "1.2.0"
+		"@shdwcat/markdown-it-wikilinks": "^2.0.0"
 	}
 }
